@@ -46,6 +46,12 @@ const mod = {
             "01",
             "2345"
         ]],
+        ["Number",
+        [
+            "0123456789",
+            "0123456789",
+            "0123456789"
+        ]],
         ["Random",
         [
             Utils.createRandomWord(10, new Random(Date.now()).nextInt()),
