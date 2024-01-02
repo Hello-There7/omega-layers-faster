@@ -131,7 +131,7 @@ class ReStackLayer
                     }),
             ],
             [
-                new RestackLayerUpgrade("Template",
+                new RestackLayerUpgrade("ReStack is More Efficient",
                     level => new Decimal("1ee308"),
                     level => new Decimal(1).add(level), {
                         maxLevel: 1
@@ -140,7 +140,6 @@ class ReStackLayer
                     level => new Decimal("1ee308"),
                     level => new Decimal(1).add(level.mul(0.15)), {
                         maxLevel: 1,
-                        getEffectDisplay: effectDisplayTemplates.numberStandard(2, "^")
                     }),
             ],
             [
@@ -207,6 +206,9 @@ class ReStackLayer
                     }
                 }
             }
+        }
+        if (has.this.upgradeTree[7][0]) {
+            let gain = gain.pow(3)
         }
         return gain
     }
