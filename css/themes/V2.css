@@ -1,0 +1,14 @@
+:root{
+    --background-body: hsl(215, 95%, 14%);
+    --background-header: #0036cb;
+    --color-base: #36074c;
+    --color-primary: #cc00ff;
+    --color-hover: #dd8800;
+    --color-hover-strong: #fbff00;
+    --color-contrast: #00ffd5;
+    --color-success: #185b15;
+    --button-dark: #390707;
+    --notification--error: #F5431F;
+    --notification--success: #45f510;
+    --notification--special: #fbff00;
+}

@@ -13,7 +13,8 @@ const mod = {
         ["Neon", "css/themes/neon.css"],
         ["Godot Blue", "css/themes/darkblue.css"],
         ["Halloween", "css/themes/spooky.css"],
-        ["eXPerience", "css/themes/experience.css"]
+        ["eXPerience", "css/themes/experience.css"],
+        ["V2", "css/themes/V2.css"]
     ],
     layerNames: [
         ["Greek",
@@ -51,6 +52,12 @@ const mod = {
             "0123456789",
             "0123456789",
             "0123456789"
+        ]],
+        ["Null",
+        [
+            " ",
+            " ",
+            " "
         ]],
         ["Random",
         [
